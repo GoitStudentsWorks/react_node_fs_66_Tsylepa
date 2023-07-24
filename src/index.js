@@ -11,7 +11,7 @@ import GlobalStyle from 'components/GlobalStyle/GlobalStyle';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename="/Yummy">
+      <BrowserRouter basename="/react_node_fs_66_Tsylepa">
         <GlobalStyle />
         <App />
       </BrowserRouter>
